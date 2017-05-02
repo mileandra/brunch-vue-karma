@@ -1,0 +1,35 @@
+{
+  "name": "brunch-vue-unit",
+  "description": "Brunch application with Vue, Vue-Router, Vuex, Karma, Mocha and Chai",
+  "private": true,
+  "author": "Julia Will",
+  "version": "0.0.1",
+  "repository": "",
+  "scripts": {
+    "clean": "rm -rf public/",
+    "start": "npm run clean && brunch watch --server",
+    "build": "npm run clean && brunch build --production",
+    "test": "npm run clean && brunch b --env test"
+  },
+  "dependencies": {
+    "vue": "^2.3.0",
+    "vue-router": "^2.5.3",
+    "vuex": "^2.3.1"
+  },
+  "devDependencies": {
+    "auto-reload-brunch": "^2",
+    "babel-brunch": "~6.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.4.0",
+    "brunch": "^2",
+    "clean-css-brunch": "^2",
+    "es6-promise": "^4.1.0",
+    "eslint-brunch": "^3.12.0",
+    "eslint-config-vue": "^2.0.2",
+    "eslint-plugin-vue": "^2.0.1",
+    "karma-brunch": "^1.0.6",
+    "phantomjs-prebuilt": "^2.1.14",
+    "uglify-js-brunch": "^2",
+    "vue-brunch": "^2.0.1"
+  }
+}
