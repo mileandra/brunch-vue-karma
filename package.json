@@ -1,10 +1,10 @@
 {
-  "name": "brunch-vue-unit",
+  "name": "brunch-vue-karma",
   "description": "Brunch application with Vue, Vue-Router, Vuex, Karma, Mocha and Chai",
   "private": true,
   "author": "Julia Will",
   "version": "0.0.1",
-  "repository": "",
+  "repository": "https://github.com/mileandra/brunch-vue-karma.git",
   "scripts": {
     "clean": "rm -rf public/",
     "start": "npm run clean && brunch watch --server",
